@@ -2,7 +2,7 @@ name: Maven test cases
 
 on:
   push:
-    branch: main
+  pull_request:
 
 jobs:
   build:
